@@ -1,1 +1,1 @@
-# liujigang.github.io
+[blog](blog.liujigang.com)
