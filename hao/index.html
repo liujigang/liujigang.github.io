@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jquery多块左右切换焦点图效果 - 导航</title>
+
+
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<script src="js/jquery.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="slider">
+
+	<a class="pre"></a>
+	
+	<div id="wai_box">
+		<div class="slider_box">
+			<ul>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/1.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/2.jpg" /></a><span class="title">优酷视频</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/3.jpg" /></a><span class="title">1号店面</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/4.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/5.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/6.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/7.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/8.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/9.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/10.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/11.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/12.jpg" /></a><span class="title">导航</span></li>
+			</ul>
+			<ul>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/5.jpg" /></a><span class="title">土豆网</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/6.jpg" /></a><span class="title">迅雷看看</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/7.jpg" /></a><span class="title">龍将</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/8.jpg" /></a><span class="title">pps</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/9.jpg" /></a><span class="title">秦美人</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/10.jpg" /></a><span class="title">秦美人</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/11.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/12.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/12.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/13.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/14.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/15.jpg" /></a><span class="title">导航</span></li>
+			</ul>
+			<ul>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/11.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/12.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/13.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/14.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/15.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/16.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/17.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/18.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/19.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/20.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/1.jpg" /></a><span class="title">导航</span></li>
+				<li><a href="http://www.17sucai.com" class="images"><img src="images/4.jpg" /></a><span class="title">导航</span></li>
+			</ul>
+		</div>
+	</div>
+	
+	<a class="next"></a>
+	
+	<div class="nav">
+		<a class="now"></a>
+		<a></a>
+		<a></a>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+						   
+	$("#slider").find(".pre").hide();//初始化为第一版
+	var page=1;//初始化当前的版面为1
+	var $show=$("#slider").find(".slider_box");//找到图片展示区域
+	var page_count=$show.find("ul").length;
+	var $width_box=$show.parents("#wai_box").width();//找到图片展示区域外围的div
+	//显示title文字
+	$show.find("li").hover(function(){
+		$(this).find(".title").show();								
+	},function(){
+		$(this).find(".title").hide();
+	})
+	function nav(){
+		if(page==1){
+			$("#slider").find(".pre").hide().siblings(".next").show();
+		}else if(page==page_count){
+			$("#slider").find(".next").hide().siblings(".pre").show();
+		}else{
+			$("#slider").find(".pre").show().siblings(".next").show();
+		}
+	}
+	$("#slider").find(".next").click(function(){
+		//首先判断展示区域是否处于动画
+		if(!$show.is(":animated")){
+			$show.animate({left:'-='+$width_box},"normal");
+			page++;
+			nav();
+			$number=page-1;
+			$("#slider").find(".nav a:eq("+$number+")").addClass("now").siblings("a").removeClass("now");
+			return false;
+		}
+	})
+	$("#slider").find(".pre").click(function(){
+		if(!$show.is(":animated")){
+			$show.animate({left:'+='+$width_box},"normal");
+			page--;
+			nav();
+			$number=page-1;
+			$("#slider").find(".nav a:eq("+$number+")").addClass("now").siblings("a").removeClass("now");
+		}
+		return false;
+	})
+	$("#slider").find(".nav a").click(function(){
+		$index=$(this).index();
+		page=$index+1;
+		nav();
+		$show.animate({left:-($width_box*$index)},"normal");	
+		$(this).addClass("now").siblings("a").removeClass("now");
+		return false;
+	})
+	
+	// 隐藏所有工具提示
+	$(".slider_box li").each(function(){
+		$(".slider_box li .title", this).css("opacity", "0");
+	});
+	
+	$(".slider_box li").hover(function(){ // 悬浮 
+		$(this).stop().fadeTo(500,1).siblings().stop().fadeTo(500,0.2);
+		$(".slider_box li .title", this).stop().animate({opacity:1,bottom:"0px"},300);
+	},function(){ // 寻出
+		$(this).stop().fadeTo(500, 1).siblings().stop().fadeTo(500,1);	
+		$(".slider_box li .title", this).stop().animate({opacity:0,bottom:"-30px"},300);
+	});
+						   
+});
+</script>
+
+</body>
+</html>
